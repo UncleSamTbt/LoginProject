@@ -14,7 +14,7 @@ public class LoginProject {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Simulate user registration
+        // User registration
         System.out.println("Enter first name: ");
         String firstName = scanner.nextLine();
 
@@ -27,7 +27,7 @@ public class LoginProject {
         System.out.println("Enter password (at least 8 characters, a capital letter, a number, and a special character): ");
         String password = scanner.nextLine();
 
-        // Create a Login object with user details
+        // Login Object that allows access with user information
         Login user = new Login(firstName, lastName, username, password);
 
         // Attempt registration and print result
