@@ -14,7 +14,7 @@ public class LoginProject {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //user registration
+        // Simulate user registration
         System.out.println("Enter first name: ");
         String firstName = scanner.nextLine();
 
